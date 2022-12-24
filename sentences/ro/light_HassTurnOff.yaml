@@ -2,7 +2,9 @@ language: ro
 intents:
   HassTurnOff:
     data:
-    - sentences: []
+    - sentences:
+        - "<stinge> [toate] (lumina | luminile) din <zona>"
+        - "<stinge> [toate] (lumina | luminile) in <zona>"
       slots:
         domain: light
         name: all
