@@ -2,7 +2,9 @@ language: ro
 intents:
   HassTurnOn:
     data:
-    - sentences: []
+    - sentences:
+          - "<aprinde> [toate] (lumina | luminile) din <area>"
+          - "<aprinde> [toate] (lumina | luminile) in <area>"
       slots:
         domain: light
         name: all
